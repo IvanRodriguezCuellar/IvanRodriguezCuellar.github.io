@@ -1,0 +1,20 @@
+body{
+        margin: 0 auto;
+        border: 1px black solid;
+        width: 950px;
+        height: 100%;
+        font-family: 'Merriweather', serif;
+    }
+
+    nav{
+        text-align: center;
+    }   
+        
+    h1{
+        text-align: center;
+    }
+
+    li{
+        list-style-type: none;
+        text-align: center;
+    } 
