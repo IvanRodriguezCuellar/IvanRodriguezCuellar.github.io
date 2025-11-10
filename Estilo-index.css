@@ -1,20 +1,42 @@
 body{
     margin: 0 auto;
-    border: 1px black solid;
-    width: 950px;
-    height: 100%;
+    width: 100%;
     font-family: 'Merriweather', serif;
 }
-
-nav{
-    text-align: center;
-}   
-        
+      
 h1{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding-top: 15px;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
     text-align: center;
+}
+
+ol{
+    font-size:0;
+    border-top: 10px solid rgb(0, 139, 253);
+    border-top: 10px solid black;
+    padding: 0;
 }
 
 li{
-    list-style-type: none;
+    display: inline-block;
+    width: 20%;
+    font-size: 16px;
     text-align: center;
-} 
+    font-weight: bold;
+    padding: 10px 0;
+
+}
+
+li:hover{
+    background-color: rgb(0, 105, 61);
+    color: aliceblue;
+}
+
+img{
+    width: 50%;
+}
