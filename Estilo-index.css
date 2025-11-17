@@ -5,11 +5,11 @@ body{
 }
       
 h1{
-    background-color: darkcyan;
+    background-color: grey;
     color: white;
     margin: 0;
     padding-top: 15px;
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 20px;
     text-align: center;
@@ -17,9 +17,8 @@ h1{
 
 ol{
     font-size:0;
-    border-top: 10px solid rgb(0, 139, 253);
-    border-top: 10px solid darkcyan;
     padding: 0;
+    height: 30px;
 }
 
 li{
@@ -46,12 +45,14 @@ p{
     margin: 55px;
     margin-bottom: 20px;
     margin-top: 20px;
+    padding-bottom: 3px;
 }
 
 img{
-    width: 45%;
-    height: 300px;
+    width: 47%;
+    height: 47%;
     padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 article{
@@ -63,16 +64,18 @@ table{
     margin: auto;
     background-color: bisque;
     border-collapse: collapse;
-    width: 700px;
+    width: 100%;
     border-bottom: 10px solid black;
     text-align: center;
-    
+}
+
+thead{
+    border-bottom: 2px dashed black;
 }
 
 caption{
     border-bottom: 10px solid rgb(221, 142, 16);
-    font-size: 20px;
-    
+    font-size: 24px;
 }
 
 td{
@@ -82,5 +85,52 @@ td{
 
 th{
     font-size: 20px;
+}
+
+section {
+    width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    font-size: 32px;
+    color: #b35c1e;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0c3a3;
+    padding-bottom: 10px;
+}
+
+article p {
+    font-size: 18px;
+    margin: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+span{
+    font-weight: bold;
+    color: #8b3e00;
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+article p:last-of-type {
+    margin-bottom: 0;
+}
+
+
+/* Imagenes */
+
+#petra{
+    width: 450px;
+    height: 250px;
+}
+
+#china{
+    width: 450px;
+    height: 250px;
 }
 
