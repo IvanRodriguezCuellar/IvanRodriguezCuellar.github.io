@@ -15,10 +15,20 @@ h1{
     text-align: center;
 }
 
+p{
+    text-align: justify;
+    padding-bottom: 3px;
+}
+
 ol{
     font-size:0;
     padding: 0;
     height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 li{
@@ -28,24 +38,22 @@ li{
     text-align: center;
     font-weight: bold;
     padding: 10px 0;
+    color: black;
+    
+}
 
+a:hover{
+    background-color: rgb(83, 132, 145);
+    color: aliceblue;
 }
 
 li:hover{
-    background-color: rgb(0, 105, 61);
+    background-color: rgb(83, 132, 145);
     color: aliceblue;
 }
 
 main{
-    margin: 40px;
-}
-
-p{
-    text-align: justify;
-    margin: 55px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding-bottom: 3px;
+    margin: 20px;
 }
 
 img{
@@ -59,13 +67,14 @@ article{
     text-align: center;
 }
 
+/* TABLA*/
 
 table{
     margin: auto;
     background-color: bisque;
     border-collapse: collapse;
     width: 100%;
-    border-bottom: 10px solid black;
+    border-bottom: 5px solid black;
     text-align: center;
 }
 
@@ -98,13 +107,13 @@ section {
 article h2 {
     font-size: 32px;
     color: #b35c1e;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 2px solid #e0c3a3;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 article p {
-    font-size: 18px;
+    font-size: 17px;
     margin: 30px;
     margin-bottom: 20px;
     text-align: justify;
@@ -114,7 +123,8 @@ span{
     font-weight: bold;
     color: #8b3e00;
     margin-top: 20px;
-    font-size: 19px;
+    font-size: 20px;
+    font-variant: small-caps; /* Versalitas */
 }
 
 article p:last-of-type {
@@ -134,3 +144,7 @@ article p:last-of-type {
     height: 250px;
 }
 
+#mexico{
+    width: 450px;
+    height: 250px;
+}
