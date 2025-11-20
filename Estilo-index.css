@@ -136,15 +136,30 @@ article p:last-of-type {
 
 #petra{
     width: 450px;
-    height: 250px;
+    height: 270px;
 }
 
 #china{
     width: 450px;
-    height: 250px;
+    height: 300px;
 }
 
 #mexico{
     width: 450px;
-    height: 250px;
+    height: 300px;
+}
+
+#brasil{
+    width: 450px;
+    height: 300px;
+}
+
+#coliseo{
+    width: 450px;
+    height: 300px;
+}
+
+#peru{
+    width: 460px;
+    height: 260px;
 }
