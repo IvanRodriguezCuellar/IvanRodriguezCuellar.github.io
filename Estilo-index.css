@@ -45,11 +45,7 @@ li{
     font-weight: bold;
     padding: 10px 0;
     color: black;
-}
-
-a:hover{
-    background-color: rgb(83, 132, 145);
-    color: aliceblue;
+    background-color: gainsboro;
 }
 
 li:hover{
@@ -76,7 +72,7 @@ article{
 
 table{
     margin: auto;
-    background-color: bisque;
+    background-color: rgb(224, 206, 184);
     border-collapse: collapse;
     width: 80%;
     border-bottom: 5px solid black;
@@ -87,8 +83,9 @@ thead{
     border-bottom: 2px dashed black;
 }
 
-caption{
-    border-bottom: 10px solid rgb(221, 142, 16);
+caption{ /* Titulo de la tabla */
+    padding: 7px;
+    border-bottom: 10px solid rgb(70, 54, 29);
     font-size: 24px;
 }
 
@@ -99,6 +96,11 @@ td{
 
 th{
     font-size: 20px;
+}
+
+td a{
+    color: black;
+    text-decoration: none;
 }
 
 /* MAIN*/
@@ -165,7 +167,7 @@ footer{
     height: 300px;
 }
 
-#coliseo{
+#roma{
     width: 450px;
     height: 300px;
 }
