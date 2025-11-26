@@ -15,7 +15,6 @@
         </header>
 
         <fieldset>
-            
             <legend>Información del viaje</legend>
             
             <label for="destino">Destino:</label>
@@ -41,6 +40,14 @@
                 <option value="coche">Coche</option>
             </select>
 
+            <label for="clase">Clase de viaje:</label>
+        <select id="clase" name="clase">
+            <option value="economica">Económica</option>
+            <option value="premium">Premium</option>
+            <option value="business">Business</option>
+            <option value="primera">Primera clase</option>
+        </select>
+
             <label for="idiomas">Idiomas:</label>
             <select id="idioma" name="idioma">
                 <option value="avion">Español</option>
@@ -50,6 +57,11 @@
                 <option value="otro">Otros</option>
             </select>
 
+            <label for="pais">País de residencia:</label>
+            <input type="text" id="pais" name="pais" required placeholder="Ej: España, Estados Unidos, Argentina">
+
+        </fieldset>
+        
             <fieldset>
                 <legend>Actividades durante el viaje</legend>
 
@@ -67,6 +79,13 @@
             <input type="checkbox"><label for="comida">Comida</label>
             <input type="checkbox"><label for="cena">Cena</label>
 
+            <label for="habitacion">Tipo de habitación:</label>
+            <select id="habitacion" name="habitacion" size="3">
+                <option value="individual">Individual</option>
+                <option value="doble">Doble</option>
+                <option value="suite">Suite</option>
+            </select>
+
             <label for="alergias">Alergias:</label>
             <select id="alergias" name="alergias" required>
                 <option value="Si">SI</option>
@@ -74,7 +93,7 @@
             </select>
 
             <label for="alergia">Especificar alguna alergia en caso de tener alguna:</label>
-            <textarea id="alergia" name="alergia" placeholder="Indica tu alergia">Indicar cualquier tipo de alergia...</textarea>
+            <textarea id="alergia" name="alergia" placeholder="Indicar cualquier tipo de alergia..."></textarea>
 
             </fieldset>
 
@@ -90,12 +109,43 @@
             <label for="telefono">Teléfono:</label>
             <input type="telefono" id="telefono" name="telefono" placeholder="612345678" required>
 
+            <label for="contacto">Método de contacto preferido:</label>
+            <select id="contacto" name="contacto">
+                <option value="email">Correo electrónico</option>
+                <option value="telefono">Teléfono</option>
+                <option value="whatsapp">WhatsApp</option>
+            </select>
+
             <label for="Salario">Presupuesto estimado:</label>
         1000<input type="range" name="salario" id="salario" min="1000" max="5000" step="1000" required>5000
 
+            <label for="archivo">Adjuntar reserva del hotel:</label>
+            <input type="file" id="archivo" name="archivo">
+
+            <label for="habitacion">Tipo de habitación:</label>
+            <select id="habitacion" name="habitacion">
+                <option value="individual">Individual</option>
+                <option value="doble">Doble</option>
+                <option value="suite">Suite</option>
+            </select>
+
+            <label for="pago">Forma de pago:</label>
+            <select id="pago" name="pago">
+                <option value="tarjeta">Tarjeta de crédito/débito</option>
+                <option value="paypal">PayPal</option>
+                <option value="transferencia">Transferencia bancaria</option>
+            </select>
+
             <label for="comentarios">Comentarios adicionales:</label>
-            <textarea id="comentarios" name="comentarios" placeholder="Escribe tu necesidad">Indica cualquier necesidad especial o pregunta</textarea>
+            <textarea id="comentarios" name="comentarios" placeholder="Indica cualquier necesidad especial o pregunta"></textarea>
+
         </fieldset>
+
+        <fieldset>
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">&copy;Acepto los términos y condiciones</label>
+        </fieldset>
+
 
         <button type="submit">Reservar viaje</button>
         <button type="reset">Limpiar formulario</button>
