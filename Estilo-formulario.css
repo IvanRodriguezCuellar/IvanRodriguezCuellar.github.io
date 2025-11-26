@@ -12,7 +12,7 @@ h1{
     font-size: 24px;
     font-weight: 600px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(175, 155, 159);
+    background-color: rgb(223, 113, 135);
     border-radius: 12px;
     width: 500px;
     margin: auto;
@@ -32,14 +32,16 @@ fieldset{
     border-radius: 8px;
     margin-bottom: 20px;
     padding: 20px;
+    margin-top: 10px;
 }
 
 legend{
     font-weight: bold;
     color: #34495e;
-    padding: 10px 2px 0 2px;
+    padding: 0 2px 0 2px;
     text-align: center;
-    font-size: 20px;
+    margin: 0;
+    font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -56,6 +58,10 @@ label{
     text-align: left;
     padding-top: 0;
     padding-bottom: 8px;
+}
+
+label:nth-of-type(1){
+    margin-top: 0;
 }
 
 textarea{

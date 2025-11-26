@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="Estilo-formulario.css">
 </head>
 <body>
-    <form action="#" method="post" enctype="multipart/form-data">
+    <form action="#" method="post" enctype="multipart/form-data" novalidate autocomplete="off">
         <header>
-            <h1>Reserva tu Próximo Viaje</h1>
+            <h1>Reserva tu próximo viaje</h1>
         </header>
 
         <fieldset>
@@ -50,10 +50,13 @@
                 <option value="otro">Otros</option>
             </select>
 
+            <fieldset>
+                <legend>Actividades durante el viaje</legend>
+
             <label for="actividad">Actividades que te interesan:</label>
-            <select id="actividad" name="actividad">
-                <option value="cuktura">Cultura</option>
-                <option value="aventura">Aventura</option>
+            <select id="actividad" name="actividad" size="3" multiple>
+                <option value="cultura">Cultura</option>
+                <option value="aventura" selected>Aventura</option>
                 <option value="relax">Relax</option>
                 <option value="gastronomia">Gastronomia</option>
                 <option value="otro">Otras</option>
@@ -67,12 +70,13 @@
             <label for="alergias">Alergias:</label>
             <select id="alergias" name="alergias" required>
                 <option value="Si">SI</option>
-                <option value="No">NO</option>
+                <option value="No" selected>NO</option>
             </select>
 
             <label for="alergia">Especificar alguna alergia en caso de tener alguna:</label>
-            <textarea id="alergia" name="alergia" placeholder="Indicar cualquier tipo de alergia...">
-            </textarea>
+            <textarea id="alergia" name="alergia" placeholder="Indica tu alergia">Indicar cualquier tipo de alergia...</textarea>
+
+            </fieldset>
 
         <fieldset>
             <legend>Datos de contacto</legend>
@@ -87,11 +91,10 @@
             <input type="telefono" id="telefono" name="telefono" placeholder="612345678" required>
 
             <label for="Salario">Presupuesto estimado:</label>
-        1000<input type="range" name="salario" id="salario" min="1000" max="5000" step="1000">5000
+        1000<input type="range" name="salario" id="salario" min="1000" max="5000" step="1000" required>5000
 
             <label for="comentarios">Comentarios adicionales:</label>
-            <textarea id="comentarios" name="comentarios" placeholder="Indica cualquier necesidad especial o pregunta...">
-            </textarea>
+            <textarea id="comentarios" name="comentarios" placeholder="Escribe tu necesidad">Indica cualquier necesidad especial o pregunta</textarea>
         </fieldset>
 
         <button type="submit">Reservar viaje</button>
