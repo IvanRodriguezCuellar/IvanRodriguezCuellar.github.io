@@ -145,7 +145,7 @@ footer{
     text-align: center;
 }
 
-/* Imagenes */
+/* Imagenes MUNDO MODERNO*/
 
 #petra{
     width: 450px;
@@ -180,4 +180,10 @@ footer{
 #india{
     width: 450px;
     height: 270px;
+}
+
+#babilonia{
+    width: 430px;
+    height: 270px;
+    padding-right: 5px;
 }
