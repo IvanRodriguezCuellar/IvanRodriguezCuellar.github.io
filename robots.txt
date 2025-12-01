@@ -1,0 +1,8 @@
+User-agent:*
+Allow:/
+#Dissalow:/*.pdf
+#User-agent:bingbot
+#Dissalow:/
+Disallow:/admin
+Disallow:/users
+Sitemap: https://www.https://ivanrodriguezcuellar.github.io//site
