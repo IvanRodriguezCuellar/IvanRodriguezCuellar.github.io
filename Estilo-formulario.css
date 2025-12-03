@@ -47,6 +47,22 @@ legend{
     background-color: rgb(69, 181, 167);
 }
 
+/* COLORES LEGEND*/
+#datos{
+    background-color: rgb(175, 89, 255);
+    border-radius: 10px;
+}
+
+#viaje{
+    background-color: rgb(172, 141, 141);
+    border-radius: 10px;
+}
+
+#info{
+    background-color: #82b85b;
+    border-radius: 10px;
+}
+
 input{
     width: 300px;
     height: 20px;
@@ -124,4 +140,3 @@ button[type="reset"]:hover{ /* Al pasar el raton cambia */
     background: #bdc3c7;
     transform: scale(1.05);
 }
-

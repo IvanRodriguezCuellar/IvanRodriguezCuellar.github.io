@@ -15,7 +15,7 @@
         </header>
 
         <fieldset>
-            <legend>Información del viaje</legend>
+            <legend id="info">Información del viaje</legend>
             
             <label for="destino">Destino:</label>
             <input type="text" id="destino" name="destino" placeholder="Ej: Japón, Francia, Italia, Noruega, Alemania" required>
@@ -63,7 +63,7 @@
         </fieldset>
         
             <fieldset>
-                <legend>Actividades durante el viaje</legend>
+                <legend id="viaje">Actividades durante el viaje</legend>
 
             <label for="actividad">Actividades que te interesan:</label>
             <select id="actividad" name="actividad" size="3" multiple>
@@ -101,7 +101,7 @@
             </fieldset>
 
         <fieldset>
-            <legend>Datos de contacto</legend>
+            <legend id="datos">Datos de contacto</legend>
 
             <label for="nombre_completo">Nombre completo:</label>
             <input type="text" id="nombre_completo" name="nombre_completo" placeholder="Introduce tu nombre y apellidos completos" required>
@@ -159,13 +159,13 @@
 
         <fieldset>
             <input type="checkbox" id="terminos" name="terminos" required>
-            <label for="terminos">&copy;Acepto los términos y condiciones</label>
+            <label for="terminos">&copy; Acepto los términos y condiciones</label>
         </fieldset>
 
 
         <button type="submit">Reservar viaje</button>
         <button type="reset">Limpiar formulario</button>
-
+        
     </form>
 
 </body>
