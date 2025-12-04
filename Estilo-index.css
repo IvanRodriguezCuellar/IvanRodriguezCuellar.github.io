@@ -5,12 +5,12 @@ body{
 }
 
 h1{
-    background-color: lightsteelblue;
+    background-color: rgb(144, 178, 223);
     color: white;
     margin: 0;
     padding-top: 25px;
     font-size: 30px;
-    font-family: "Comic Neue";
+    font-family: 'Georgia', serif;
     padding-left: 20px;
     text-align: center;
     height: 60px;  
@@ -53,6 +53,10 @@ li:hover{
     color: aliceblue;
 }
 
+nav li:hover{
+    background-color: #aa8b37;
+}
+
 main{
     margin: 20px;
 }
@@ -91,7 +95,7 @@ caption{ /* Titulo de la tabla */
 
 td{
     border-bottom: 2px dashed black;
-    padding: 5px;
+    padding: 7px;
 }
 
 th{
