@@ -174,10 +174,12 @@ aside{
     background-color: azure;
     text-align: center;
     border-radius: 12px;
-    padding: 5px;
+    padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-    float: right;
+    width: 80px;
+    margin-left: 900px;
+    margin-top: -35px;
 }
 
 article p:last-of-type {
