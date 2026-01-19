@@ -1,0 +1,117 @@
+body{
+    margin: auto 0;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    background-color: lightslategray;
+    color: white;
+    margin: 0;
+    padding-top: 25px;
+    font-size: 30px;
+    font-family: 'Georgia', serif;
+    padding-left: 20px;
+    text-align: center;
+    height: 60px;
+    font-variant: small-caps;
+}
+
+/* NAVEGACIÓN */
+
+nav{
+    font-family: "Kedebideri";
+}
+
+ol{
+    font-size:0;
+    padding: 0;
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: forestgreen;
+}
+
+div{
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px 0 10px 20px;
+    color: black;
+    background-color: gainsboro;
+}
+
+p{
+    text-align: justify;
+    padding-bottom: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* MAIN*/
+
+section {
+    width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+article{
+    font-size: 32px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #948677;
+    padding-bottom: 20px;
+}
+
+article h2 {
+    font-size: 32px;
+    color: steelblue;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #948677;
+    padding-bottom: 20px;
+}
+
+article p {
+    font-size: 17px;
+    margin: 20px;
+    text-align: justify;
+}
+
+span{
+    font-weight: bold;
+    color: coral;
+    margin-top: 20px;
+    font-size: 20px;
+    font-variant: small-caps; /* Versalitas */
+}
+
+article img{
+    width: 320px;
+    height: 230px;
+    padding: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer{
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer p{
+   background-color: rgb(198, 230, 241);
+   border-radius: 12px;
+   width: 500px;
+   text-align: center;
+   margin-left: 25%;
+}
