@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    background-color: rgb(202, 200, 169);
+    background-color: darkslategray;
     color: white;
     margin: 0;
     padding-top: 25px;
@@ -44,15 +44,9 @@ div{
     font-size: 16px;
     text-align: left;
     font-weight: bold;
-    padding: 10px 0 10px 20px;
+    padding: 20px 0 10px 20px;
     color: black;
     background-color: gainsboro;
-}
-
-p{
-    text-align: justify;
-    padding-bottom: 3px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* MAIN*/
@@ -87,58 +81,11 @@ article p {
     text-align: justify;
 }
 
-span{
-    font-weight: bold;
-    color: brown;
-    margin-top: 20px;
-    font-size: 20px;
-    font-variant: small-caps; /* Versalitas */
-}
-
 article img{
     width: 320px;
-    height: 150px;
-    padding: 2px;
-    margin-left: 5px;
+    height: 230px;
+    padding: 3px;
     text-align: center;
     cursor: pointer;
 }
 
-/* FOTOS TIPOS DE MITOLOGIA */
-#tipos{
-    width: 320px;
-    height: 200px;
-}
-
-#nordica{
-    width: 320px;
-    height: 200px;
-}
-
-#egipcia{
-    width: 320px;
-    height: 200px;
-}
-
-#azteca{
-    width: 320px;
-    height: 200px;
-}
-
-#otras{
-    width: 320px;
-    height: 200px;
-}
-
-footer{
-    margin: 0 auto;
-    text-align: center;
-}
-
-footer p{
-   background-color: rgb(198, 230, 241);
-   border-radius: 12px;
-   width: 500px;
-   text-align: center;
-   margin-left: 35%;
-}
