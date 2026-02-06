@@ -52,7 +52,7 @@ div{
 /* MAIN*/
 
 section {
-    width: 1000px;
+    width: 800px;
     margin: 40px auto;
     padding: 20px;
     background: #fff;
@@ -81,11 +81,11 @@ article p {
     text-align: justify;
 }
 
-article img{
-    width: 320px;
-    height: 230px;
-    padding: 3px;
-    text-align: center;
-    cursor: pointer;
+article img {
+    float: right;
+    width: 200px;
+    height: 290px;
+    margin: 0 0 10px 20px;
+    border-radius: 12px;
 }
 
