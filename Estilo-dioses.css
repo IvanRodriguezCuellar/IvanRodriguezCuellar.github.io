@@ -190,21 +190,40 @@ article p {
 }
 
 table {
-    margin: 0 auto; 
-    border-collapse: collapse;
     font-family: "Segoe UI", sans-serif;
-    text-align: center;
-    float: left;
-}
-
-td, th {
-    padding: 10px;
-    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 50%;
 }
 
 caption {
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #e2874a;
+    color: white;
 }
+
+th {
+    background: #f5f7fa;
+    padding: 12px;
+    font-weight: 600;
+    border-bottom: 2px solid #e0e6ed;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover td {
+    background: #f0f7ff;
+}
+
+
+
+
 
