@@ -17,6 +17,8 @@ h1{
     font-variant: small-caps;
 }
 
+
+
 /* NAVEGACIÓN */
 
 nav{
@@ -81,11 +83,128 @@ article p {
     text-align: justify;
 }
 
-article img {
+/* IMAGENES  DIOSES */
+#zeus{
     float: right;
     width: 200px;
     height: 290px;
     margin: 0 0 10px 20px;
     border-radius: 12px;
+}
+
+#poseidon{
+    float: left;
+    width: 200px;
+    height: 290px;
+    margin: 0 10px 10px 20px;
+    border-radius: 12px;
+}
+
+#hades{
+    float: right;
+    width: 200px;
+    height: 290px;
+    margin: 0 0 10px 20px;
+    border-radius: 12px;
+}
+
+#hermes{
+    float: left;
+    width: 110px;
+    height: 200px;
+    margin: 0 10px 10px 20px;
+    border-radius: 12px;
+}
+
+#hera{
+    float: right;
+    width: 150px;
+    height: 200px;
+    margin: 0 10px 10px 20px;
+    border-radius: 12px;
+}
+
+#hefesto{
+    float: left;
+    width: 200px;
+    height: 220px;
+    margin: 10px 10px 0 20px;
+    border-radius: 12px;
+}
+
+#dioniso{
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin: 0 10px 10px 20px;
+    border-radius: 12px;
+}
+
+#atenea{
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin: 0 10px 10px 20px;
+    border-radius: 12px;
+}
+
+#apolo{
+    float: right;
+    width: 280px;
+    height: 200px;
+    margin: 50px 10px 10px 20px;
+    border-radius: 12px;
+}
+
+#artemisa{
+    float: left;
+    width: 160px;
+    height: 270px;
+    margin: 0 10px 10px 20px;
+    border-radius: 12px;
+}
+
+#ares{
+    float: right;
+    width: 150px;
+    height: 180px;
+    margin: 10px 10px 10px 20px;
+    border-radius: 12px;
+}
+
+
+#afrodita{
+    float: left;
+    width: 150px;
+    height: 310px;
+    margin: 0 10px 10px 20px;
+    border-radius: 12px;
+}
+
+#demeter{
+    float: right;
+    width: 180px;
+    height: 270px;
+    margin: 20px 10px 10px 20px;
+    border-radius: 12px;
+}
+
+table {
+    margin: 0 auto; 
+    border-collapse: collapse;
+    font-family: "Segoe UI", sans-serif;
+    text-align: center;
+    float: left;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+caption {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
