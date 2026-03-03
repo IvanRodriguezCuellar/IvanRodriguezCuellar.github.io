@@ -52,7 +52,7 @@ div{
 
 /* TABLA*/
 
-table {
+table{
     margin: 30px auto;
     border-collapse: collapse;
     background: white;
@@ -61,21 +61,21 @@ table {
     overflow: hidden;
 }
 
-caption {
+caption{
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
     color: #5d2e0a;
 }
 
-td {
+td{
     padding: 15px 25px;
     border: 1px solid #e0d7c6;
     text-align: center;
     transition: background 0.3s;
 }
 
-td:hover {
+td:hover{
     background-color: #fff5e6;
 }
 

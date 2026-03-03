@@ -204,7 +204,7 @@ article p:last-of-type {
 
 div{
     animation-name: carrusel;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -220,6 +220,7 @@ div img{
 }
 
 /* FOOTER */
+
 footer{
     margin: 0 auto;
     text-align: center;
