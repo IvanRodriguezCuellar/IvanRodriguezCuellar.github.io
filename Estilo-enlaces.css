@@ -1,9 +1,55 @@
-body{
-    width: 60%;
+body {
+    width: 95%;
+    max-width: 1000px;
     border: 1px black solid;
     margin: auto;
     text-align: center;
     font-family: "Caudex";
+}
+
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ol {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: auto;
+}
+
+nav ol li {
+    width: calc(100%/5);
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: gainsboro;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 480px){
+    nav ol{
+        flex-direction: column;
+    }
+    nav ol li{
+        width: 100%;
+    }
+
+    article{
+        display: block;
+        width: 100%;
+    }
+
+    img{
+        max-width: 100%;
+    }
+    
+    body{
+        width: 100%;
+    }
 }
 
 h1{
@@ -26,28 +72,8 @@ h2:target{
     color: darkgray;
 }
 
-nav{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-ol{
-    padding: 0;
-    font-size: 0;
-}
-
-li{
-    display: inline-block;
-    width: calc(100%/5); /* Al usar el calculo se divide el espacio para que entren los 4 apartados*/
-    text-align: center;
-    font-size: 16px;
-    background-color: black;
-    color: white;
-    padding: 10px 0;
-}
-
-
 li:hover{ /* Hover: Al pasar el ratón, cambia de color*/
-    background-color: aliceblue;
+    background-color: rgb(248, 252, 255);
     color: black;
 }
 
@@ -58,8 +84,9 @@ article{
 }
 
 img{
-    width: 350px;
-    height: 200px;
+    max-width: 350px;
+    width: 100%;
+    height: 210px;
 }
 
 a{

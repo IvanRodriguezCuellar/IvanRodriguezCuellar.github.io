@@ -5,6 +5,27 @@ body{
     padding: 0;
 }
 
+/* MEDIA QUERY */
+@media screen and (max-width: 480px) {
+    form {
+        padding: 10px;
+    }
+
+    fieldset {
+        padding: 15px 10px;
+    }
+
+    legend {
+        font-size: 20px;
+    }
+
+    button {
+        width: 40%;
+        margin-bottom: 20px;
+        float: none;
+    }
+}
+
 h1{
     text-align: center;
     color: #2c3e50;
@@ -14,18 +35,38 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(135, 182, 219);
     border-radius: 12px;
-    width: 500px;
-    margin: auto;
     padding: 8px;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+input, textarea{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+}
+
+select{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
 }
 
 form{
     background: #ffffff;
     padding: 20px;
-    width: 600px;
-    margin: auto;
-    border-radius: 12px; /* Para que no se nos quede en forma de pico, el formulario*/
+    border-radius: 12px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    max-width: 600px;
+    margin: auto;
 }
 
 fieldset{
@@ -98,6 +139,8 @@ textarea{
 button{
     padding: 12px 20px;
     margin-right: 10px;
+    margin-bottom: 10px;
+    width: 50%;
     border: none;
     border-radius: 6px;
     font-size: 17px;
