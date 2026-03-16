@@ -26,6 +26,7 @@ header > div{
     color: black;
     background-color: gainsboro;
     margin: 0;
+    box-sizing: border-box; /* Evita desbordes por el padding */
 }
 
 a{
@@ -44,12 +45,12 @@ p{
 }
 
 section{
-    width: 95%;
-    max-width: 1000px;
+    width: 90%;
     margin: 40px auto;
     padding: 20px;
     background: #fff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
 }
 
 article{
@@ -76,15 +77,15 @@ article p{
 div{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     gap: 10px;
     margin: 20px 0;
 }
 
 article img{
-    width: 31%;
+    width: 30%;
     height: auto;
     display: block;
     padding: 3px;
@@ -122,15 +123,15 @@ footer{
 footer p{
    background-color: rgb(198, 230, 241);
    border-radius: 12px;
-   width: 90%;
-   max-width: 500px;
+   width: 80%;
    text-align: center;
    margin: 0 auto;
    padding: 10px;
 }
 
 /* MEDIA QUERY */
-@media (max-width: 480px) {
+
+@media (max-width: 480px){
     header>div{
         text-align: center;
         display: flex;
@@ -140,17 +141,18 @@ footer p{
 
     div{
         flex-direction: column;
-        flex-wrap: wrap;
-        gap: 15px;
     }
 
     article img{
-        width: 100%;
-        max-width: 300px;
-        margin: 0 auto;
+        width: 90%;
+        margin: 10px auto;
     }
 
     article h2{
         font-size: 26px;
+    }
+    
+    section {
+        width: 95%;
     }
 }

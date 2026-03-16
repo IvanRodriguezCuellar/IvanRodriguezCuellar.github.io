@@ -1,5 +1,5 @@
 body{
-    margin: auto 0;
+    margin: 0;
     width: 100%;
     font-family: 'Merriweather', serif;
 }
@@ -19,17 +19,18 @@ h1{
 p{
     text-align: justify;
     padding-bottom: 3px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
 }
 
 /* NAVEGACIÓN */
+
 nav ol{
     display: flex;
     flex-direction: row;
     padding: 0;
     margin: 0;
     list-style: none;
-    height: auto;
+    background-color: gainsboro;
 }
 
 nav ol li{
@@ -38,19 +39,10 @@ nav ol li{
     text-align: center;
     font-weight: bold;
     padding: 10px 0;
-    background-color: gainsboro;
 }
 
-/* MEDIA QUERY */
-@media screen and (max-width: 480px){
-    nav ol{
-        flex-direction: column;
-    }
-
-    nav ol li{
-        width: 100%;
-        border-bottom: 1px solid white; 
-    }
+li:hover{
+    background-color: gray;
 }
 
 a{
@@ -58,41 +50,53 @@ a{
     color: black;
 }
 
-li:hover{
-    background-color: gray;
-}
-
-main{
-    margin: 20px;
-}
-
-img{
-    width: 47%;
-    height: 47%;
-    padding-bottom: 20px;
-    padding-top: 10px;
-}
-
-article{
+/* MAIN */
+section{
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
     text-align: center;
 }
 
-/* TABLA*/
+article h2{
+    font-size: 32px;
+    color: #b35c1e;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e0c3a3;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+article p{
+    font-size: 17px;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+article > img{
+    width: 48%;
+    height: 300px; 
+    display: inline-block;
+    margin: 1% 0.5%;
+    vertical-align: top;
+}
+
+/* TABLA */
 
 table{
-    margin: auto;
+    margin: 20px auto;
     background-color: rgb(224, 206, 184);
     border-collapse: collapse;
-    width: 80%;
+    width: 100%;
     border-bottom: 5px solid black;
     text-align: center;
 }
 
-thead{
-    border-bottom: 2px dashed black;
-}
-
-caption{ /* Titulo de la tabla */
+caption{
     padding: 7px;
     border-bottom: 10px solid rgb(70, 54, 29);
     font-size: 24px;
@@ -103,224 +107,349 @@ td{
     padding: 7px;
 }
 
-th{
-    font-size: 20px;
-}
-
-td a{
-    color: black;
-    text-decoration: none;
-}
-
-/* MAIN*/
-
-section {
-    width: 1000px;
-    margin: 40px auto;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-article h2 {
-    font-size: 32px;
-    color: #b35c1e;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #e0c3a3;
-    padding-bottom: 20px;
-}
-
-h3{
-    font-weight: bold;
-    color: rgb(133, 138, 142);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-article p {
-    font-size: 17px;
-    margin: 30px;
-    margin-bottom: 20px;
-    text-align: justify;
-}
-
-span{
-    font-weight: bold;
-    color: #8b3e00;
-    margin-top: 20px;
-    font-size: 20px;
-    font-variant: small-caps; /* Versalitas */
-}
-
-b{
-    color: red;
-    text-decoration: underline wavy red;
-}
-
-.legado-mundo{
-    color: grey;
-    font-variant: small-caps;
-    font-size: 19px;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-aside{
-    font-weight: bold;
-    padding: 10px;
-    background-color: bisque;
-    width: 60%;
-    text-align: center;
-    margin: 10px auto;
-}
-
-/* SILO */
+/* MITOLOGÍA */
 
 #mitologia{
     background-color: azure;
     text-align: center;
     border-radius: 12px;
     padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, serif;
     font-size: 20px;
-    width: 80px;
-    margin-left: 900px;
-    margin-top: -35px;
+    width: 120px;
+    margin: 20px auto; 
+    display: block;
 }
 
-article p:last-of-type {
-    margin-bottom: 0;
+/* IMAGENES */
+
+#petra {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#petra {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#china {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#mexico {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#brasil {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#roma {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#peru {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#india {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#legado {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#babilonia {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#egipto {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#mausoleo {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#zeus {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#templo {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#faro {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#coloso {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#resumen {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
+}
+
+#octavo {
+    width: 48%;
+    height: 300px;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    vertical-align: top;
 }
 
 /* CARRUSEL */
-
 @keyframes carrusel{
-    from{
-        clip-path: inset(0 0 0 400px);
-        left: 0;
+    from{ 
+        transform: translateX(0); 
     }
-            
-    to{
-        clip-path: inset(0 400px 0 0);
-        left: 400px;
-    }           
+    to{ 
+        transform: translateX(-30%); 
+    }
 }
 
 div{
-    animation-name: carrusel;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    width: 100%;
-    height: 270px;
-    font-size: 0;
-    transition: 3s;    
+    display: flex;
+    animation: carrusel 8s ease-in-out infinite alternate;
+    width: 250%;
+    height: 200px; 
+    margin-top: 30px;
 }
 
 div img{
-    width: 200px;
+    width: 250px;
+    height: 150px;
+    margin: 0 10px;
     cursor: pointer;
+    flex-shrink: 0;
+}
+
+/* NAVEGACION FOOTER */
+
+nav:last-of-type{
+    text-align: center;
 }
 
 /* FOOTER */
 
-footer{
-    margin: 0 auto;
-    text-align: center;
-}
-
 footer p{
    background-color: lavenderblush;
-   width: 500px;
+   width: 80%;
+   max-width: 500px;
    text-align: center;
-   margin-left: 30%;
+   margin: 20px auto;
+   padding: 10px;
 }
 
-/* Imagenes MUNDO MODERNO*/
+/* MEDIA QUERY */
 
-#petra{
-    width: 450px;
-    height: 270px;
-}
+@media screen and (max-width: 480px){
+    nav ol{
+        flex-direction: column; 
+    }
 
-#china{
-    width: 450px;
-    height: 300px;
-}
+    nav ol li{ 
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
 
-#mexico{
-    width: 450px;
-    height: 300px;
-}
+    section{ 
+        width: 95%;
+        padding: 10px;
+    }
 
-#brasil{
-    width: 450px;
-    height: 300px;
-}
+    article>img{
+        width: 100%;
+        height: 250px; 
+    }
 
-#roma{
-    width: 450px;
-    height: 300px;
-}
+    #petra {
+        width: 100%;
+        height: 250px;
+    }
 
-#peru{
-    width: 460px;
-    height: 260px;
-}
+    #china {
+        width: 100%;
+        height: 250px;
+    }
 
-#india{
-    width: 450px;
-    height: 270px;
-}
+    #mexico {
+        width: 100%;
+        height: 250px;
+    }
 
-#legado{
-    width: 450px;
-    height: 290px;
-}
+    #brasil {
+        width: 100%;
+        height: 250px;
+    }
 
-#babilonia{
-    width: 460px;
-    height: 270px;
-    padding-right: 5px;
-}
+    #roma {
+        width: 100%;
+        height: 250px;
+    }
 
-#egipto{
-    width: 470px;
-    height: 280px;
-}
+    #peru {
+        width: 100%;
+        height: 250px;
+    }
 
-#mausoleo{
-    width: 470px;
-    height: 280px;
-    padding-right: 5px;
-}
+    #india {
+        width: 100%;
+        height: 250px;
+    }
 
-#zeus{
-    width: 470px;
-    height: 280px;
-}
+    #legado {
+        width: 100%;
+        height: 250px;
+    }
 
-#templo{
-    width: 470px;
-    height: 280px;
-}
+    #babilonia {
+        width: 100%;
+        height: 250px;
+    }
 
-#faro{
-    width: 470px;
-    height: 280px;
-}
+    #egipto {
+        width: 100%;
+        height: 250px;
+    }
 
-#coloso{
-    width: 470px;
-    height: 280px;
-}
+    #mausoleo {
+        width: 100%;
+        height: 250px;
+    }
 
-#resumen{
-    width: 470px;
-    height: 280px;
-}
+    #zeus {
+        width: 100%;
+        height: 250px;
+    }
 
-#octavo{
-    width: 470px;
-    height: 280px;
+    #templo {
+        width: 100%;
+        height: 250px;
+    }
+
+    #faro {
+        width: 100%;
+        height: 250px;
+    }
+
+    #coloso {
+        width: 100%;
+        height: 250px;
+    }
+
+    #resumen {
+        width: 100%;
+        height: 250px;
+    }
+
+    #octavo {
+        width: 100%;
+        height: 250px;
+    }
 }
