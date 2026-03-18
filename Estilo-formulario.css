@@ -10,9 +10,10 @@ body{
 }
 
 /* MEDIA QUERY */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
     form{
         padding: 10px;
+        width: 100%;
     }
 
     fieldset{
@@ -24,8 +25,8 @@ body{
     }
 
     button{
-        width: 40%;
-        margin-bottom: 20px;
+        width: 100%;
+        margin-bottom: 10px;
         float: none;
     }
 }
@@ -35,7 +36,7 @@ h1{
     color: #2c3e50;
     margin-top: 20px;
     font-size: 24px;
-    font-weight: 600px;
+    font-weight: 600;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(135, 182, 219);
     border-radius: 12px;
@@ -46,22 +47,42 @@ h1{
 }
 
 input{
-    width: 100%;
-    height: 35px;
+    width: 100%; 
     font-family: 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
+    display: block;
 }
 
 textarea{
-    width: 100%;
-    height: 100px;
+    width: 100%; 
+    font-family: 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
+    display: block;
 }
 
 select{
-    width: 100%;
-    max-width: 100%;
+    width: 100%; 
+    font-family: 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
+    display: block;
+}
+
+input{
+    height: 35px;
+}
+
+textarea{
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    border-color: #3498db;
+    box-shadow: 0 0 6px rgba(53, 153, 219, 0.3);
+    height: 100px;
+}
+
+select{
     height: auto;
     padding: 10px;
 }
@@ -75,7 +96,7 @@ form{
     flex-direction: column;
     width: 95%;
     max-width: 600px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 fieldset{
@@ -89,34 +110,28 @@ fieldset{
 legend{
     font-weight: bold;
     color: #34495e;
-    padding: 0 2px 0 2px;
+    padding: 0 10px;
     text-align: center;
     margin: 0;
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(69, 181, 167);
 }
 
-/* COLORES LEGEND*/
-#datos{
+/* COLORES LEGEND */
+
+#datos {
     background-color: rgb(175, 89, 255);
     border-radius: 10px;
 }
 
-#viaje{
+#viaje{ 
     background-color: rgb(172, 141, 141);
     border-radius: 10px;
 }
 
-#info{
+#info{ 
     background-color: #82b85b;
-    border-radius: 10px;
-}
-
-input{
-    width: 300px;
-    height: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px; 
 }
 
 label{
@@ -125,72 +140,55 @@ label{
     font-weight: 500;
     color: #2c3e50;
     text-align: left;
-    padding-top: 0;
     padding-bottom: 8px;
-}
-
-label:nth-of-type(1){
-    margin-top: 0;
-}
-
-textarea{
-    padding: 10px;
-    margin-top: 6px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 14px;
-    border-color: #3498db; /* Color al borde de la linea del textarea */
-    box-shadow: 0 0 6px rgba(53, 153, 219, 0.3);
-    width: 400px;
-    height: 70px;
 }
 
 button{
     padding: 12px 20px;
     margin-right: 10px;
     margin-bottom: 10px;
-    width: 50%;
+    width: 48%;
     border: none;
     border-radius: 6px;
     font-size: 17px;
     cursor: pointer;
     transition: background 0.3s, transform 0.2s;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #terminos{
-    float: right;
-    width: 30px;
+    width: auto;
+    float: none;
+    display: inline-block;
 }
-
-/* Botón de enviar */
 
 button[type="submit"]{
     background-color: #3498db;
     color: #fff;
-    font-weight: 600px;
     font-variant: small-caps;
-    
 }
-
-/* Botón de borrar */
 
 button[type="reset"]{
     background-color: #f1cde4;
     color: #2c3e50;
-    font-weight: 600px;
     font-variant: small-caps;
     float: right;
-
 }
 
-button[type="submit"]:hover{ /* Al pasar el ratón cambia */
-    background: #82b85b;
+/* BOTONES */
+
+button[type="submit"]:hover{
     transform: scale(1.05);
 }
 
-button[type="reset"]:hover{ /* Al pasar el raton cambia */
-    background: #bdc3c7;
+button[type="reset"]:hover{
     transform: scale(1.05);
+}
+
+button[type="submit"]:hover{
+    background-color: #82b85b;
+}
+
+button[type="reset"]:hover{ 
+    background-color: #bdc3c7; 
 }
