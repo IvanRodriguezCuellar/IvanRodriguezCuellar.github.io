@@ -1,20 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+    <url>
+        <loc>https://ivanrodriguezcuellar.github.io/index.html</loc>
+        <lastmod>2026-03-18</lastmod>
+        <priority>1.00</priority>
 
-<url>
-  <loc>https://ivanrodriguezcuellar.github.io/</loc>
-  <lastmod>2025-10-27T09:18:32+00:00</lastmod>
-</url>
+<!--MARAVILLAS MUNDO MODERNO-->
 
-<url>
-  <loc>https://ivanrodriguezcuellar.github.io/Enlaces</loc>
-  <lastmod>2025-12-02T09:17:15+00:00</lastmod> 
-</url>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/petra.jpg</image:loc>
+            <image:caption>Petra: La ciudad rosa</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/petra2.jpg</image:loc>
+            <image:caption>Vista secundaria de Petra</image:caption>
+        </image:image>
 
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/muralla.webp</image:loc>
+            <image:caption>La Gran Muralla China</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/muralla2.jpg</image:loc>
+            <image:caption>Torre de vigilancia en la Muralla</image:caption>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/chichen-itza.jpg</image:loc>
+            <image:caption>Chichén Itzá: Pirámide de Kukulcán</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/chichen-itza2.jpg</image:loc>
+            <image:caption>Templo de los Guerreros</image:caption>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/cristo-redentor.jpg</image:loc>
+            <image:caption>Cristo Redentor</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/cristo-redentor-2.jfif</image:loc>
+            <image:caption>Vistas desde el Corcovado</image:caption>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/coliseo.jpg</image:loc>
+            <image:caption>El Coliseo de Roma</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/coliseo2.jpg</image:loc>
+            <image:caption>Interior del anfiteatro Flavio</image:caption>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/machu-picchu.jpg</image:loc>
+            <image:caption>Machu Picchu: Santuario Inca</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/machu-picchu2.webp</image:loc>
+            <image:caption>Andenes de Machu Picchu</image:caption>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/Taj-mahal.jpeg</image:loc>
+            <image:caption>El Taj Mahal</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/Taj-mahal2.jpg</image:loc>
+            <image:caption>Cúpula del Taj Mahal</image:caption>
+        </image:image>
+
+<!--MARAVILLAS MUNDO ANTIGUO-->  
+
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/jardines.jpg</image:loc>
+            <image:caption>Jardines Colgantes de Babilonia</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/jardines2.jpg</image:loc>
+            <image:caption>Recreación de Babilonia</image:caption>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/piramide.jpg</image:loc>
+            <image:caption>Gran Pirámide de Giza</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/piramide2.jpg</image:loc>
+            <image:caption>Las tres pirámides de Egipto</image:caption>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/mausoleo.jfif</image:loc>
+            <image:caption>Mausoleo de Halicarnaso</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/mausoleo2.jpg</image:loc>
+            <image:caption>Restos del Mausoleo</image:caption>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/estatua.jpg</image:loc>
+            <image:caption>Estatua de Zeus en Olimpia</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/estatua2.jpg</image:loc>
+            <image:caption>Templo de Zeus</image:caption>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/templo.jpg</image:loc>
+            <image:caption>Templo de Artemisa</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/templo2.jpg</image:loc>
+            <image:caption>Ruinas de Éfeso</image:caption>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/faro.jpg</image:loc>
+            <image:caption>El Faro de Alejandría</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/faro2.jpg</image:loc>
+            <image:caption>Bahía de Alejandría</image:caption>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/coloso.jpg</image:loc>
+            <image:caption>El Coloso de Rodas</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/coloso2.jpg</image:loc>
+            <image:caption>Puerto de Rodas</image:caption>
+        </image:image>       
+    </url>
+
+    <url>
+        <loc>https://ivanrodriguezcuellar.github.io/mitologia.html</loc>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>https://ivanrodriguezcuellar.github.io/tipos.html</loc>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://ivanrodriguezcuellar.github.io/dioses.html</loc>
+        <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/zeus3.jpg</image:loc>
+            <image:caption>Zeus, rey de los dioses</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ivanrodriguezcuellar.github.io/demeter.jpg</image:loc>
+            <image:caption>Deméter, diosa de la agricultura</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://ivanrodriguezcuellar.github.io/Formulario.html</loc>
+        <priority>0.50</priority>
+    </url>
+    <url>
+        <loc>https://ivanrodriguezcuellar.github.io/Enlaces.html</loc>
+        <priority>0.40</priority>
+    </url>
 </urlset>
