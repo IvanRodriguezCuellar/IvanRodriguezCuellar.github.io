@@ -13,7 +13,7 @@ h1{
     font-family: 'Georgia', serif;
     padding-left: 20px;
     text-align: center;
-    height: 60px;  
+    height: auto; /* Porque sino se me baja el titulo */
 }
 
 p{
@@ -51,6 +51,7 @@ a{
 }
 
 /* MAIN */
+
 section{
     width: 90%;
     max-width: 1000px;
@@ -83,6 +84,14 @@ article > img{
     display: inline-block;
     margin: 1% 0.5%;
     vertical-align: top;
+}
+
+span{
+    color: darkslategrey;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
 }
 
 /* TABLA */
@@ -123,7 +132,7 @@ td{
 
 /* IMAGENES */
 
-#petra {
+.imagen{
     width: 48%;
     height: 300px;
     display: inline-block;
@@ -133,181 +142,14 @@ td{
     vertical-align: top;
 }
 
-#petra {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#china {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#mexico {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#brasil {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#roma {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#peru {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#india {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#legado {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#babilonia {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#egipto {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#mausoleo {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#zeus {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#templo {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#faro {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#coloso {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#resumen {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
-
-#octavo {
-    width: 48%;
-    height: 300px;
-    display: inline-block;
-    margin: 1%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    vertical-align: top;
-}
 
 /* CARRUSEL */
+
 @keyframes carrusel{
     from{ 
         transform: translateX(0); 
     }
+
     to{ 
         transform: translateX(-30%); 
     }
@@ -350,7 +192,7 @@ footer p{
 
 @media screen and (max-width: 480px){
     nav ol{
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     nav ol li{ 
@@ -368,87 +210,9 @@ footer p{
         height: 250px; 
     }
 
-    #petra {
-        width: 100%;
-        height: 250px;
-    }
-
-    #china {
-        width: 100%;
-        height: 250px;
-    }
-
-    #mexico {
-        width: 100%;
-        height: 250px;
-    }
-
-    #brasil {
-        width: 100%;
-        height: 250px;
-    }
-
-    #roma {
-        width: 100%;
-        height: 250px;
-    }
-
-    #peru {
-        width: 100%;
-        height: 250px;
-    }
-
-    #india {
-        width: 100%;
-        height: 250px;
-    }
-
-    #legado {
-        width: 100%;
-        height: 250px;
-    }
-
-    #babilonia {
-        width: 100%;
-        height: 250px;
-    }
-
-    #egipto {
-        width: 100%;
-        height: 250px;
-    }
-
-    #mausoleo {
-        width: 100%;
-        height: 250px;
-    }
-
-    #zeus {
-        width: 100%;
-        height: 250px;
-    }
-
-    #templo {
-        width: 100%;
-        height: 250px;
-    }
-
-    #faro {
-        width: 100%;
-        height: 250px;
-    }
-
-    #coloso {
-        width: 100%;
-        height: 250px;
-    }
-
-    #resumen {
-        width: 100%;
-        height: 250px;
-    }
-
-    #octavo {
+    /* IMAGENES */
+    
+    .imagen{ 
         width: 100%;
         height: 250px;
     }

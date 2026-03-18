@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f2f2f2;
@@ -7,19 +11,19 @@ body{
 
 /* MEDIA QUERY */
 @media screen and (max-width: 480px) {
-    form {
+    form{
         padding: 10px;
     }
 
-    fieldset {
+    fieldset{
         padding: 15px 10px;
     }
 
-    legend {
+    legend{
         font-size: 20px;
     }
 
-    button {
+    button{
         width: 40%;
         margin-bottom: 20px;
         float: none;
@@ -43,7 +47,7 @@ h1{
 
 input{
     width: 100%;
-    height: auto;
+    height: 35px;
     font-family: 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
 }
@@ -161,6 +165,7 @@ button{
 }
 
 /* Botón de enviar */
+
 button[type="submit"]{
     background-color: #3498db;
     color: #fff;
@@ -170,6 +175,7 @@ button[type="submit"]{
 }
 
 /* Botón de borrar */
+
 button[type="reset"]{
     background-color: #f1cde4;
     color: #2c3e50;
