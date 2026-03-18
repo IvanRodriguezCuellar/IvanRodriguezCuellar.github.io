@@ -137,10 +137,12 @@ legend{
 label{
     display: block;
     margin-top: 8px;
-    font-weight: 500;
+    font-weight: bold;
     color: #2c3e50;
     text-align: left;
     padding-bottom: 8px;
+    width: 30%;
+
 }
 
 button{
