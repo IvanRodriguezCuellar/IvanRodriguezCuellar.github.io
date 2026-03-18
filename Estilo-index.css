@@ -2,6 +2,7 @@ body{
     margin: 0;
     width: 100%;
     font-family: 'Merriweather', serif;
+    overflow-x: hidden;
 }
 
 h1{
@@ -151,7 +152,7 @@ td{
     }
 
     to{ 
-        transform: translateX(-30%); 
+        transform: translateX(-5%); 
     }
 }
 
@@ -211,7 +212,6 @@ footer p{
     }
 
     /* IMAGENES */
-    
     .imagen{ 
         width: 100%;
         height: 250px;
