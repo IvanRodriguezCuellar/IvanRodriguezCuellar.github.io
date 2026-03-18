@@ -143,39 +143,11 @@ td{
     vertical-align: top;
 }
 
-
-/* CARRUSEL */
-
-@keyframes carrusel{
-    from{ 
-        transform: translateX(0); 
-    }
-
-    to{ 
-        transform: translateX(-5%); 
-    }
-}
-
-div{
-    display: flex;
-    animation: carrusel 8s ease-in-out infinite alternate;
-    width: 250%;
-    height: 200px; 
-    margin-top: 30px;
-}
-
-div img{
-    width: 250px;
-    height: 150px;
-    margin: 0 10px;
-    cursor: pointer;
-    flex-shrink: 0;
-}
-
 /* NAVEGACION FOOTER */
 
 nav:last-of-type{
     text-align: center;
+    padding-bottom: 30px;
 }
 
 /* FOOTER */
