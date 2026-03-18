@@ -78,7 +78,7 @@ label{
     color: #2c3e50;
     text-align: left;
     padding-bottom: 8px;
-    width: 100%; /* Eliminado el 30% que causaba el error */
+    width: 100%;
 }
 
 select{
@@ -112,7 +112,7 @@ textarea{
     border-radius: 6px;
     font-size: 14px;
     border-color: #3498db;
-    box-shadow: 0 0 6px rgba(53, 153, 219, 0.3); /* */
+    box-shadow: 0 0 6px rgba(53, 153, 219, 0.3);
     height: 100px;
 }
 
@@ -127,6 +127,7 @@ select{
 }
 
 /* BOTONES */
+
 button{
     padding: 12px 20px;
     margin-bottom: 10px;
