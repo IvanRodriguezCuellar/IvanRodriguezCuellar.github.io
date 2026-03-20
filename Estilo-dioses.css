@@ -140,14 +140,22 @@ footer p{
 
 /* MEDIA QUERY */
 
-@media (max-width: 600px){
+@media (max-width: 480px){
+    ol {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .dioses{
+        width: 70%; 
+    }
+
     article h2{
         font-size: 24px;
         padding-bottom: 10px;
-    }
-    
-    .dioses{
-        width: 35%;
     }
 
     section{
