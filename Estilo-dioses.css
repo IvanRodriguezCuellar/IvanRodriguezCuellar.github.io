@@ -46,40 +46,6 @@ a{
     color: black;
 }
 
-a:hover{
-    color: white;
-    font-weight: bold;
-}
-
-/* TABLA*/
-
-table{
-    margin: 30px auto;
-    border-collapse: collapse;
-    background: white;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-caption{
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #5d2e0a;
-}
-
-td{
-    padding: 15px 25px;
-    border: 1px solid #e0d7c6;
-    text-align: center;
-    transition: background 0.3s;
-}
-
-td:hover{
-    background-color: #fff5e6;
-}
-
 /* MAIN*/
 
 section{
@@ -114,18 +80,12 @@ article p{
 /* FOOTER */
 
 footer{
-    margin: 20px auto;
+    margin: 40px auto 20px;
     text-align: center;
-    width: 60%;
-}
-
-footer p{
-   background-color: rgb(85, 92, 87);
-   border-radius: 12px;
-   width: 80%;
-   text-align: center;
-   margin: 0 auto;
-   padding: 10px;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    color: #7f8c8d;
 }
 
 /* IMAGENES DIOSES */
@@ -136,6 +96,12 @@ footer p{
     display: block;
     margin: 10px auto 25px auto;
     border-radius: 12px;
+    transition: transform 0.3s ease; /* Prepara la animación */
+}
+
+.dioses:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 /* MEDIA QUERY */

@@ -32,10 +32,6 @@ header > div a{
     color: black;
 }
 
-header > div a:hover{
-    color: cadetblue;
-}
-
 section{
     width: 75%;
     margin: 40px auto;
@@ -75,7 +71,14 @@ article img{
     display: block;
     cursor: pointer;
     border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s;
 }
+
+article img:hover {
+    transform: translateY(-5px);
+}
+
 
 article p{
     font-size: 17px;
@@ -102,6 +105,12 @@ span{
     width: 100px;
     margin: 20px auto;
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+#mitologia:hover{
+    background-color: #006064;
+    transform: scale(1.1);
 }
 
 footer p{
