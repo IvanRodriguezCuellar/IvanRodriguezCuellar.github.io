@@ -57,7 +57,7 @@ legend{
 /* COLORES LEGEND */
 
 #datos{
-    background-color: rgb(175, 89, 255);
+    background-color: rgb(90, 45, 133);
     border-radius: 10px;
 }
 
@@ -138,7 +138,7 @@ button{
 }
 
 button[type="submit"]{ 
-    background-color: #3498db;
+    background-color: #21618b;
     color: #fff;
 }
 

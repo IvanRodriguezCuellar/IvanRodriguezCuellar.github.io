@@ -103,7 +103,7 @@ article img:hover{
 
 span{
     font-weight: bold;
-    color: coral;
+    color: rgb(112, 56, 35);
     margin-top: 20px;
     font-size: 20px;
     font-variant: small-caps;
@@ -124,8 +124,8 @@ span{
     transition: all 0.3s ease;
 }
 
-#mitologia:hover {
-    background-color: #006064;
+#mitologia:hover{
+    background-color: #04484b;
     transform: scale(1.1);
 }
 

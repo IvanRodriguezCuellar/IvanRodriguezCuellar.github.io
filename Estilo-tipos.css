@@ -88,7 +88,7 @@ article p{
 
 span{
     font-weight: bold;
-    color: coral;
+    color: rgb(145, 72, 46);
     font-size: 20px;
     font-variant: small-caps;
 }
@@ -109,14 +109,14 @@ span{
 }
 
 #mitologia:hover{
-    background-color: #006064;
+    background-color: #04484b;
     transform: scale(1.1);
 }
 
 footer p{
    background-color: rgb(198, 230, 241);
    border-radius: 12px;
-   width: 60%;           /* Footer más recogido también */
+   width: 60%;
    text-align: center;
    margin: 0 auto;
    padding: 10px;
