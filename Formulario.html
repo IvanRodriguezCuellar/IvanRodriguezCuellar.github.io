@@ -31,6 +31,8 @@
       </script>
 </head>
 <body>
+    <a href="#contenido">Ir al contenido</a>
+    <main id="contenido">
     <form action="#" method="post" enctype="multipart/form-data" novalidate autocomplete="off">
         <header>
             <h1>Reserva tu próximo viaje</h1>
@@ -40,16 +42,16 @@
             <legend id="info">Información del viaje</legend>
             
             <label for="destino">Destino:</label>
-            <input type="text" id="destino" name="destino" placeholder="Ej: Japón, Francia, Italia, Noruega, Alemania" required>
+            <input type="text" id="destino" name="destino" placeholder="Ej: Japón, Francia, Italia, Noruega, Alemania" required aria-required="true">
             
             <label for="fecha_ida">Fecha de ida:</label>
-            <input type="date" id="fecha_ida" name="fecha_ida" required>
+            <input type="date" id="fecha_ida" name="fecha_ida" required aria-required="true">
             
             <label for="fecha_regreso">Fecha de vuelta:</label>
             <input type="date" id="fecha_regreso" name="fecha_regreso">
             
             <label for="adultos">Adultos:</label>
-            <input type="number" id="adultos" name="adultos" min="1" value="1" required>
+            <input type="number" id="adultos" name="adultos" min="1" value="1" required aria-required="true">
             
             <label for="ninos">Niños:</label>
             <input type="number" id="ninos" name="ninos" min="0" value="0">
@@ -80,7 +82,7 @@
             </select>
 
             <label for="pais">País de residencia:</label>
-            <input type="text" id="pais" name="pais" required placeholder="Ej: España, Estados Unidos, Argentina">
+            <input type="text" id="pais" name="pais" required aria-required="true" placeholder="Ej: España, Estados Unidos, Argentina">
 
         </fieldset>
         
@@ -112,7 +114,7 @@
             </select>
 
             <label for="tiene_alergia">Alergias:</label>
-            <select id="tiene_alergia" name="alergias" required>
+            <select id="tiene_alergia" name="alergias" required aria-required="true">
             <option value="Si">SI</option>
             <option value="No" selected>NO</option>
             </select>
@@ -126,13 +128,13 @@
             <legend id="datos">Datos de contacto</legend>
 
             <label for="nombre_completo">Nombre completo:</label>
-            <input type="text" id="nombre_completo" name="nombre_completo" placeholder="Introduce tu nombre y apellidos completos" required>
+            <input type="text" id="nombre_completo" name="nombre_completo" placeholder="Introduce tu nombre y apellidos completos" required aria-required="true">
             
             <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" placeholder="Por ejemplo usuario@dominio.es" required>
+            <input type="email" id="email" name="email" placeholder="Por ejemplo usuario@dominio.es" required aria-required="true">
             
             <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" placeholder="612345678" required>
+            <input type="tel" id="telefono" name="telefono" placeholder="612345678" required aria-required="true">
 
             <label for="contacto">Método de contacto preferido:</label>
             <select id="contacto" name="contacto">
@@ -144,6 +146,11 @@
             <label for="archivo">Adjuntar reserva del hotel:</label>
             <input type="file" id="archivo" name="archivo">
 
+            </fieldset>
+
+            <fieldset>
+                <legend id="pagos">Datos de pago</legend>
+
             <label for="pago">Forma de pago:</label>
             <select id="pago" name="pago">
                 <option value="tarjeta">Tarjeta de crédito/débito</option>
@@ -152,16 +159,16 @@
             </select>
 
             <label for="nombre">Nombre en la tarjeta:</label>
-            <input type="text" id="nombre" name="nombre" required placeholder="Ejemplo: Victor García">
+            <input type="text" id="nombre" name="nombre" required aria-required="true" placeholder="Ejemplo: Victor García">
 
             <label for="tarjeta">Número de tarjeta:</label>
-            <input type="text" id="tarjeta" name="tarjeta" maxlength="16" required placeholder="1234 5678 9012 3456">
+            <input type="text" id="tarjeta" name="tarjeta" maxlength="16" required aria-required="true" placeholder="1234 5678 9012 3456">
 
             <label for="caducidad">Fecha de caducidad:</label>
-            <input type="month" id="caducidad" name="caducidad" required placeholder="MM/AAAA">
+            <input type="month" id="caducidad" name="caducidad" required aria-required="true" placeholder="MM/AAAA">
 
             <label for="cvv">CVV:</label>
-            <input type="text" id="cvv" name="cvv" maxlength="4" required placeholder="123">
+            <input type="text" id="cvv" name="cvv" maxlength="4" required aria-required="true" placeholder="123">
 
                         
             <label for="comentarios">Comentarios adicionales:</label>
@@ -170,9 +177,9 @@
 
         
         <fieldset>
-            <legend></legend>
-            <input type="checkbox" id="terminos" name="terminos" required>
-            <label for="terminos">&copy; Acepto los términos y condiciones</label>
+            <legend>Aceptación de condiciones</legend>
+            <input type="checkbox" id="terminos" name="terminos" required aria-required="true">
+            <label for="terminos">Acepto los términos y condiciones</label>
         </fieldset>
         
 
@@ -181,6 +188,6 @@
         <button type="reset">Limpiar formulario</button>
         
     </form>
-
+    </main>
 </body>
 </html>

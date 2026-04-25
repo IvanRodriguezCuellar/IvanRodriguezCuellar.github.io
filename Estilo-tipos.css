@@ -4,6 +4,20 @@ body{
     font-family: 'Merriweather', serif;
 }
 
+body>a{
+    left: -1000px; /* Tambien se puede dandole font-size:0 */
+    position: absolute;
+}
+
+body>a:focus{
+    position: static;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 h1{
     background-color: lightslategray;
     color: white;
@@ -27,10 +41,6 @@ header > div{
     box-sizing: border-box;
 }
 
-header > div a{
-    text-decoration: none;
-    color: black;
-}
 
 section{
     width: 75%;

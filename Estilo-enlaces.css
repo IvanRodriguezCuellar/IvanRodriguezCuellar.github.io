@@ -7,6 +7,15 @@ body{
     font-family: "Caudex";
 }
 
+body>a{
+    left: -1000px; /* Tambien se puede dandole font-size:0 */
+    position: absolute;
+}
+
+body>a:focus{
+    position: static;
+}
+
 nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

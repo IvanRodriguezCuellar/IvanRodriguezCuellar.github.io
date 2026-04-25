@@ -4,6 +4,15 @@ body{
     font-family: 'Merriweather', serif;
 }
 
+body>a{
+    left: -1000px; /* Tambien se puede dandole font-size:0 */
+    position: absolute;
+}
+
+body>a:focus{
+    position: static;
+}
+
 h1{
     background-color: lightslategray;
     color: white;

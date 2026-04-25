@@ -9,6 +9,20 @@ body{
     padding: 0;
 }
 
+body>a{
+    left: -1000px; /* Tambien se puede dandole font-size:0 */
+    position: absolute;
+}
+
+body>a:focus{
+    position: static;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 h1{
     text-align: center;
     color: #2c3e50;
@@ -71,6 +85,13 @@ legend{
     background-color: #82b85b;
     border-radius: 10px;
 }
+
+#pagos{
+    background-color: darkslategrey;
+    border-radius: 10px;
+    color: white;
+}
+
 
 label{
     display: block;
